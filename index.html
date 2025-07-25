@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Bot Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home"><i class="fab fa-telegram-plane"></i> TG Dev</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Обо мне</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Проекты</a>
+                </li>
+
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главная секция -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Привет, я <span class="highlight">Костя</span>
+                </h1>
+                <p class="hero-subtitle">Telegram Bot Developer</p>
+                <p class="hero-description">
+                    Создаю умных Telegram ботов, работаю с API, базами данных и автоматизирую бизнес-процессы
+                </p>
+
+            </div>
+            <div class="hero-image">
+                <div class="hero-avatar">
+                    <i class="fab fa-telegram-plane"></i>
+                </div>
+                <div class="floating-icons">
+                    <div class="floating-icon telegram">
+                        <i class="fab fa-telegram-plane"></i>
+                    </div>
+                    <div class="floating-icon python">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="floating-icon database">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="floating-icon code">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="floating-icon docker">
+                        <i class="fab fa-docker"></i>
+                    </div>
+                    <div class="floating-icon api">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="floating-icon robot">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="floating-icon terminal">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Обо мне" -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Я специализируюсь на разработке Telegram ботов для автоматизации бизнес-процессов.
+                        Создаю умных ботов с интеграцией API, работой с базами данных и сложной логикой.
+                    </p>
+                    <div class="skills">
+                        <h3>Технологии</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-telegram-plane"></i>
+                                <span>Telegram API</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>SQLite</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-server"></i>
+                                <span>REST API</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-docker"></i>
+                                <span>Docker</span>
+                            </div>
+
+                            <div class="skill-item">
+                                <i class="fas fa-robot"></i>
+                                <span>Aiogram</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>SQLAlchemy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <! -- Секция проектов -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Мои Telegram боты</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-cut"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Бот записи в салон красоты</h3>
+                            <p>Система онлайн записи к мастерам с выбором услуг, времени и уведомлениями</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Aiogram</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">APScheduler</span>
+                            </div>
+                            <div class="project-links">
+                                <button class="project-link" data-bot="beauty_salon_bot">
+                                    Попробовать в Telegram
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>ИИ помощник бот</h3>
+                            <p>Небольшой умный бот с интеграцией ИИ для ответов на вопросы</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">OpenAI API</span>
+                                <span class="tech-tag">Aiogram</span>
+                                <span class="tech-tag">SQLite</span>
+                            </div>
+                            <div class="project-links">
+                                <button class="project-link" data-bot="ai_assistant_bot">
+                                    Попробовать в Telegram
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Футер -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <p>&copy; 2025 [Ваше имя]. Все права защищены.</p>
+                    <div class="social-links">
+                        <a href="https://t.me/Tvoy_smysl_zhizni" class="social-link" target="_blank">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
